@@ -1,6 +1,6 @@
 # Lab: 01b - Learning Markdown
 
-
+Hi! My name is Cheri. Below is my interpretation of the Growth Mindset & 3 reminders on how I can consciously apply it to daily life. Don't stay here too long. Just kidding.
 
 ## Growth Mindset
 
