@@ -16,3 +16,4 @@ _Link to The Growth Mindset article:_[https://www.atlassian.com/blog/inside-atla
 
 _Link to my GitHub: [https://github.com/cheriezus/reading-notes](url) __
 
+git status
