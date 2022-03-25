@@ -1,19 +1,15 @@
-# Lab: 01b - Learning Markdown
 
-Hi! My name is Cheri. Below is my interpretation of the Growth Mindset & 3 reminders on how I can consciously apply it to daily life. Don't stay here too long. Just kidding.
+#Greetings!
 
-## Growth Mindset
+My name is Cheri and I'm a Los Angeles Native. That takes up the majority of my personality so I'll be quick. I come from a primarily customer service and office administration background, but have been lucky enough to be paid for some of my budding passions, such as comedy and using photoshop and video editing. I'm excited for this class, because now I will be able to finally create a website, and be able to use what I learn to hopefully destroy SEO marketing and provide free information back to the people.
 
-The growth mindset is understanding that the struggle as you're learning is part of the process. Generally optimistic, but practical when it comes to any obstacles. 
 
-### 3 Reminders to Keep Myself in a Growth Mindset
+1. [Markdown](https://duckduckgo.com)
+2. [The Coder's Computer](https://duckduckgo.com)
+3. [Revisions and the Cloud](https://duckduckgo.com)
+4. [Structure web pages with HTML](https://duckduckgo.com)
+5. [Design web pages with CSS](https://duckduckgo.com)
+6. [Dynamic web pages with JavaScript](https://duckduckgo.com)
+7. [Programming with JavaScript](https://duckduckgo.com)
+8. [Operations and Loops](https://duckduckgo.com)
 
-1. When losing focus during a difficult obstacle, do not go into **"instant gratification monkey syndrome."**
-2. No pain no gain!
-3. When things go wrong, what can I do to make sure it doesn't happen again?
-
-_Link to The Growth Mindset article:_[https://www.atlassian.com/blog/inside-atlassian/growth-mindset](url)
-
-_Link to my GitHub: [https://github.com/cheriezus/reading-notes](url) __
-
-git status
