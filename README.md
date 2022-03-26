@@ -5,7 +5,7 @@ My name is Cheri and I'm a Los Angeles Native. That takes up the majority of my 
 
 
 1. [Markdown](https://github.com/cheriezus/reading-notes/blob/e38731116e70e0743a76245bf5b526a33af55005/markdown.md)
-2. [The Coder's Computer](https://duckduckgo.com)
+2. [The Coder's Computer](https://github.com/cheriezus/reading-notes/blob/1e4136a45e1aae39f838b3c47721810f491a6a4d/codercomputer.html)
 3. [Revisions and the Cloud](https://duckduckgo.com)
 4. [Structure web pages with HTML](https://duckduckgo.com)
 5. [Design web pages with CSS](https://duckduckgo.com)
