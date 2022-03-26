@@ -7,7 +7,7 @@ cd - change directory
 mkdir - make directory
 directory - folder 
 ls - list
--- version - to see the version
+ -- version - to see the version
 touch - create a file
 cd .. - move back to a directory
 cd … - moves back 2 directories
