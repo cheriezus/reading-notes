@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title><h1>Dynamic web pages in Javascript</h1></title>
+    </head>
+    <body>
+    <h3>Javascript</h3>
+    <p>Javascript is a programming language used to implement the interactive portions of the website. i.e. maps, timely updates, </p>
+ 
+
+    <h3>Operators</h3>
+    <p> Note that the code in your web documents is generally loaded and executed in the order 
+        it appears on the page. Errors may occur if JavaScript is loaded and run before the HTML
+         and CSS that it is intended to modify.</p>
+
+    <h3>Dyanmic Vs. Static</h3>
+    <p>Dynamic - the ability to update the display of a web page/app to show different things in different 
+        circumstances, generating new content as required.</p>
+        <p>Static - A web page with no dynamically updating content.</p>
+
+    <h3>Adding Your Javascript file to your html file</h3>
+    <p><script src="script.js"></script>    </p>
+
+         <H3>IMPORTANT NOTE</H3>
+         <p>Write comments next to your javascript functions. EXPLAIN what the function does</p>
+         <p>// I am a comment- for single line comments</p>
+         <p>/*
+            I am also
+            a comment
+          */ for multi line comments</p>
+         <p>Initial Expression - expression usually initializes one or more loop counters, and can declare variables</p>
+           <p>Condition Expression - expression is evaluated. If the value of conditionExpression 
+           is true, the loop statements execute. Otherwise, the for loop terminates.</p>
+           <p>Statement - statement executes</p>
+    
+   
+    </body>
