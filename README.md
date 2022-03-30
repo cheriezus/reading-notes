@@ -19,11 +19,8 @@ My name is Cheri and I'm a Los Angeles Native. That takes up the majority of my 
 12. [Docs for the HTML < canvas > Element & Chart.js](https://github.com/cheriezus/reading-notes/blob/e3865bac7e7214d560c7141a0d91a13d0e96a602/Programming%20with%20JavaScript.html)
 13. [Local Storage](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/Operators%20and%20Loops.html)
 
-14a. [Programming with JavaScript](https://github.com/cheriezus/reading-notes/blob/e3865bac7e7214d560c7141a0d91a13d0e96a602/Programming%20with%20JavaScript.html)
-    14b. [Operations and Loops](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/Operators%20and%20Loops.html)
-
-15a. [Programming with JavaScript](https://github.com/cheriezus/reading-notes/blob/e3865bac7e7214d560c7141a0d91a13d0e96a602/Programming%20with%20JavaScript.html)
-15b. [Operations and Loops](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/Operators%20and%20Loops.html)
+14a. [CSS Transforms, Transitions, and Animations](https://github.com/cheriezus/reading-notes/blob/e3865bac7e7214d560c7141a0d91a13d0e96a602/Programming%20with%20JavaScript.html)
+    14b. [What Google Learned About Teams](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/Operators%20and%20Loops.html)
 
 
 
