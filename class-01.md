@@ -111,7 +111,7 @@ This topic is important because in order to make sure the website runs smoothly,
 
 1. What is the goal of the function?
 2. list the steps needed in order to reach the goal (NOTE: each step might need a series of smaller steps. BE detailed)
-3. turn said steps into JS using <strong>vocabulary</strong> - the words that a computer understands and <strong>syntax</strong> - putting said vocab together in a way that the computer can follow.
+3. turn said steps into JS using **vocabulary** - the words that a computer understands and **syntax** - putting said vocab together in a way that the computer can follow.
 
 - programmatically - how a computer will run your code; step by step
 
@@ -122,7 +122,7 @@ This topic is important because in order to make sure the website runs smoothly,
 -objects - each physical thing in data; each object might have its own: Property, Event, and/or Method.
 
 - properties - characteristics of the object
-- properties can have a <strong>name</strong> and a <strong>value</strong>
+- properties can have a **name**and a **value**
 - events - how people interact with the object. this triggers part of the code
 - method - where values are updated or brought up after being triggered
 
