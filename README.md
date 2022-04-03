@@ -5,7 +5,10 @@ My name is Cheri and I'm a Los Angeles Native. That takes up the majority of my 
 
 
 # Code 201 Reading Notes
-1. [Introductory HTML and JavaScript](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/201-%201%20-introductory%20HTML%20and%20JavaScript.html)
+
+1a. Class 01
+
+1b. [Introductory HTML and JavaScript](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/201-%201%20-introductory%20HTML%20and%20JavaScript.html)
 2. [HTML Text, CSS Introduction, and Basic JavaScript Instructions](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/201-%202%20-HTML%20Text%2C%20CSS%20Introduction%2C%20and%20Basic%20JavaScript%20Instructions.html)
 3. [HTML Lists, CSS Boxes, JS Control Flow](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/201-%203%20-HTML%20Lists%2C%20CSS%20Boxes%2C%20JS%20Control%20Flow.html)
 4. [HTML Links, CSS Layout, JS Functions](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/201-%204%20-HTML%20Links%2C%20CSS%20Layout%2C%20JS%20Function.html)
