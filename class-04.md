@@ -127,3 +127,32 @@ let volumeOne = getSize(3, 2, 3)[1];
 - needs the driver and navigator
   -driver - the person who is typing the code/operating the computer
   - navigator - guides the driver
+
+# In Class Notes
+
+## functions 
+- a group of statements that perform a task
+-stored in a structure that precents them from  running until the function is called or invokes
+-functions are resuable
+-functions help to keep our code DRY
+- help prevent/find bugs
+
+define/declare
+
+     
+function sum(a,b) 
+{return a + b}
+
+
+arguments - declare
+parameter- define
+
+
+Example of ${} placeholders
+let a = 5;
+let b = 10;
+console.log(`Fifteen is ${a + b} and
+not ${2 * a + b}.`);
+// "Fifteen is 15 and
+// not 20."
+
