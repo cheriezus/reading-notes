@@ -277,3 +277,77 @@ Indicates the horizontal distance the shadow should extend from the object. This
 
 - measureText()
 Returns a TextMetrics object containing the width, in pixels, that the specified text will be when drawn in the current text style.
+
+
+## In Class Notes
+
+  Global variable should be on top- declarations that you will use thorughout yoour sheet
+
+  in object contructors, you don't have to add an object to the function parantheses, since DOM will be taking care of it later. set those objects to 0. ex: this.clicks = 0;
+
+  productArray = []
+  productArray.push(this);
+  add the whole constructor into the array
+  in constructors, this. refers to the whole objecct contructor. 
+
+  GO OVER 51 MINUTE MARK IN REVIEW TODAY
+
+example of checking to avoid duplicates
+  let indexArray = [];
+
+  function renderProductImg(){
+    let randomNumber = getRandomIndex();
+    if (!indexArray.includes(randomNumber)){
+      indexArray.push(randomNumber);
+    }
+  }
+
+  let productOneIndex = indexArray.pop();
+   let productTwoIndex = indexArray.pop();
+    let productThreeIndex = indexArray.pop();
+
+Go over Event Handler function - 1 hour 15 minutes in 
+
+
+##april 20th notes
+
+# Class 13 Lecture Notes
+
+## Data Persistance
+
+### Local Storage
+
+  - It is an object is accessed throough the browser it is stored on our computer
+  - local storage is psecific fto one computer
+  - no ecpiration time - cleans when we clear it
+
+  ### Other Storage Types
+
+    - 301 - NoSQL(MongoDB)
+    -401 - SQL(postgres)
+
+  ### Why
+
+    - so uses can retain data between page refreshes or accessing different parts of the application
+
+  ### How it is stored
+  -JSON - Javascript Object Notation
+  - in object key/value pairs
+  - Convert to JSON - using a method 'JSON.stingify()'
+    - converting our object to a string
+  
+  ### Methods that we use for Local Storage
+
+  - save something to local storage
+    -`setItem('key', value);`
+  - get something oout of local storage
+    - `getItem('key');`
+  - Update an item in local storage
+    - `setItem('key',value);`
+  -Remove items from local storage
+    - `removeItem('key');`
+  -Clear all from local storage
+    - `clear()`
+
+  `localStorage
+  JSON.parse - to unparse the string of code after you remove it from storage
