@@ -33,3 +33,21 @@ My name is Cheri and I'm a Los Angeles Native. That takes up the majority of my 
 7. [Programming with JavaScript](https://github.com/cheriezus/reading-notes/blob/e3865bac7e7214d560c7141a0d91a13d0e96a602/Programming%20with%20JavaScript.html)
 8. [Operations and Loops](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/Operators%20and%20Loops.html)
 
+
+# Code 301 Reading Notes
+
+1. [Class 01](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%201)
+2. [Class 02](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%202)
+3. [Class 03](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%203)
+4. [Class 04](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%204)
+5. [Class 05](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%205)
+6. [Class 06](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%206)
+7. [Class 07](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%207)
+8. [Class 08](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%208)
+9. [Class 09](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%209)
+10. [Class 10](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%2010)
+11. [Class 11](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%2011)
+12. [Class 12](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%2012)
+13. [Class 13](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%2013)
+14. [Class 14](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%2014)
+15. [Class 15](https://github.com/cheriezus/reading-notes/blob/https/cheriezus.github.io/reading-notes/main/301%20-%2015)

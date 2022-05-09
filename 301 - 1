@@ -1,0 +1,136 @@
+# Component Based Architecture
+
+CBA focuses on the breakdown of the design into individual functional or logical components that represent well-defined communication interfaces containing methods, events, and properties. It allows people to consider something independently of its associations, attributes, or concrete accompaniments. and divides the problem into sub-problems, each associated with component partitions.
+
+This ensures component reusability. A component takes all functionality and behaviors of a software element and turns it into a reusable and self-deployable binary unit. Standard component frameworks: COM/DCOM, JavaBean, EJB, CORBA, .NET, web services, and grid services; often used in graphic JavaBean components, MS ActiveX components, and COM components. can all be reused by drag and drop operation.
+reusable components that are reliable
+
+
+What is a Component?
+A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface.
+a software object, 
+intended to interact with other components, 
+encapsulating certain functionality or a set of functionalities. 
+It has an obviously defined interface and reacts in mind with commonly used implementation
+
+software component - a unit of composition that can be deployed independently and is subject to composition by third parties.
+
+## Views of a Component
+ 
+ object-oriented view
+ viewed as a set of one or more cooperating classes. Each problem domain class (analysis) and infrastructure class (design) are explained to identify all attributes and operations that apply to its implementation. defines the interfaces that enable classes to communicate and cooperate.
+
+ conventional view
+functional element/module of a program that combines the processing logic, the internal data structures, and an interface that enables the component to invoke and pass data through it.
+
+ process-related view
+the system builds from components already stored in a library:
+
+user interface (UI) component - includes grids, buttons referred as controls, and tools to find a specific subset of functions used in other components.
+
+just-in-time (JIT) -  approach  to access resource intensive, not frequently accessed components
+
+Enterprise JavaBean (EJB), .NET components, and CORBA components - where invisible components are distributed
+
+## Characteristics of Components
+
+Reusable
+
+Replaceable − can substituted with other similar components.
+
+Not context specific − can operate in different environments and contexts.
+
+Extensible − can be combined with existing components to create new behavior.
+
+Encapsulated − A A component depicts the interfaces, which allow the caller to use its functionality, and do not expose details of the internal processes or any internal variables or state.
+
+Independent −  relies very little on other components 
+
+Principles of Component−Based Design
+- can be represented by (e.g. graphical, tabular, or text-based) to translate it into source code.
+
+- data structures, interfaces, and algorithms should all follow widely used guidelines to avoid errors 
+- has its own interface that specifies required ports and provided ports; each component hides its detailed implementation.
+- should be extended without the need to change already existing parts.
+- Depend on abstractions component don't rely on other concrete components
+- Connectors connected components, specifying and ruling the interaction among components. The interaction type is specified by the interfaces of the components. Components interaction can take the form of method invocations, asynchronous invocations, broadcasting, message driven interactions, data stream communications, and other protocol specific interactions 
+
+
+
+For a server class, specialized interfaces should be created to serve major categories of clients. Only those operations that are relevant to a particular category of clients should be specified in the interface.
+
+plug-in based architecture- A component can extend to other components and still offer its own extension points
+
+
+## Component-Level Design Guidelines
+
+Creates a naming conventions for components then refines or elaborates the model.
+
+Attains architectural component names based on the problem domain which means it will have meaning to all stakeholders involved
+
+Extracts the business process entities that work on their own 
+
+Realizes they are new components
+
+Use names that describe what the components do
+
+Includes the inheritance from bas and derived classes
+
+Component dependencies become interfaces
+
+Conducting Component-Level Design 
+Recognizes all design classes partnered with a problem domain
+
+Recognizes all design classes that follow the infrastructure domain.
+
+Points out design classes that are not reusable components
+
+Provides interfaces and show you how to implement each component
+
+pseudo code or UML activity diagrams used to describe processing flow
+
+Describes databases and files and identifies the classes required to manage them.
+
+Shows how a class or component will react by examining the analysis model and all use cases that are relevant to the design class.
+
+Elaborates deployment diagrams to provide more detail
+
+shows location of key packages/classes of components by using class instances and designating specific hardware and operating system environment.
+
+What is a “component”?
+- A complete and reusable set of code.
+
+What are the characteristics of a component?
+- Can be reused, replaceable, reliable code, does not need other components to function, can be used in different enviroments, does not expose details on how it works as its being used.
+
+What are the advantages of using component-based architecture?
+- Easy to deploy, can use the code over and over again, easy to change and update, costs less, independent and flexible code.
+
+Props/properties - special keyword used in React for passing data from one component to another.
+
+Data is passed, one way, from parent to child a.k.a uni-directional.
+
+props data is read-only -data coming from the parent should not be changed by child components.
+
+## How to Use Props
+
+#### 1. define an attribute and its value(data)
+- interpolation { }: defines attributes and assign values
+<ChildComponent someAttribute={value} anotherAttribute={value}/>
+
+#### 2. Then pass it to child component(s) by using Props
+- we pass props into a React component 
+const ChildComponent = (props) => {  
+  return <p>I'm the 1st child!</p>; 
+};
+#### 3. render the Props Data
+- render the props object by using string interpolation: {props}
+
+### 1. What is “props” short for?
+- Properties
+
+### 2. How are props used in React?
+- They are used by passing it to the child components
+
+### 3. What is the flow of props?
+- Uni directional
