@@ -107,8 +107,18 @@ How to choose which one you will use:
 Which one is going to be handled by the component?
 
 
+1. What types of things can you pass in the props?
+ - Arguments
+2. What is the big difference between props and state?
+- You handle state inside the component and prop outside the component
+
+3. When do we re-render our application?
+- When you update your app
+4. What are some examples of things that we could store in state?
+- forms, and what the user is changing the value to.
+
 Articles used:
-[Component-Based Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
+[React: Component Lifecycle Events](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
 
 Videos used: 
-[What is Props and How to Use it in React](https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0#:~:text=%E2%80%9CProps%E2%80%9D%20is%20a%20special%20keyword,way%20from%20parent%20to%20child)
+[React State Vs Props(https://www.youtube.com/watch?v=IYvD9oBCuJI)
