@@ -1,0 +1,64 @@
+# Passing Functions as Props
+
+
+##Lists and Keys
+
+### How to transform lists in JS
+- use map() to take an array of numbers and double their values
+- assign the new array to the variable doubles
+
+(Ex from react.js)
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map((number) => number * 2);
+console.log(doubled);
+
+### Rendering Multiple Components
+
+- can build groups of elements and include them in JS using {}
+
+1. loop through array using map() function
+2. Return a <li> element for each item
+3. Assign the array of elements to listItems
+4. Include listItems array inside <ul> element
+
+const numbers = [1, 2, 3, 4, 5];
+const listItems = numbers.map((number) =>
+  <li>{number}</li>
+);
+
+<ul>{listItems}</ul>
+
+
+### Basic List Component
+- used to accept an array of numbers then outputs a list of elements
+
+- will need a "key"
+
+function NumberList(props) {
+  const numbers = props.numbers;
+  const listItems = numbers.map((number) => <li key={number.toString()}>
+    {number}</li>
+  );
+  return (
+    <ul>{listItems}</ul>
+  );
+}
+
+const numbers = [1, 2, 3, 4, 5];
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<NumberList numbers={numbers} />);
+
+- key - special string attribute you need for creating lists of elements. 
+- help React know which items have been added and removed. 
+- should be given to elements inside the array.
+- uses a string that will allow you to choose it among its sibilings
+- can use {index} if you don't have stable IDs for rendered items- shouldn't use if order of items will change
+- elements inside the map() call need keys
+
+### Extracting Componenets with Keys
+
+- key should be specified inside the array
+    const listItems = numbers.map((number) =>
+    <ListItem key={number.toString()} value={number} />
+
+

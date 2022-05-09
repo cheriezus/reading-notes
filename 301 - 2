@@ -1,0 +1,114 @@
+# React: Component Lifecycle Events
+
+#### lifecycle events - methods that you can use to update the UI and application states
+
+### 3 Phases of the Component Lifecycle
+
+1. Mounting - when a component is created and inserted into DOM.
+Order of Mounting
+Constructor,
+ staticgetDerivedStateFromProps
+render
+componentDidMount
+UNSAFE_componentWillMount
+
+2. Updating - when a component is being updated/rerendered
+Order of Updating
+static getDerivedStateFromProps
+shouldComponentUpdate
+render
+getSnapshotBeforeUpdate
+componentDidUpdate
+UNSAFE_componentWillUpdate
+UNSAFE_componentWillReceiveProps
+
+3. Unmounting - when a component is removed from DOM
+Order of Unmounting
+componentWillUnmount
+
+#### constructor()
+
+- a React component
+- called before it is mounted
+- call super(props) when component is subclass
+- can be used to assign state w/ this.state and bind event handle methods to an instance.
+
+Note: Don't use this.setState() unless intentional- will ignore all update to props
+
+- static.getDerivedStateFromProps() - rare cases where state depends on changes in props over time
+
+- render() - only required method in a class component. when called, will look for this.props and this.state
+  - don't use to:
+  modify the component state
+  directly interact with the browser
+  
+- componentDidMount() - invoked as soon as a component is mounted. Where you should go when you are loading anything using a network request or initilizing the DOM and setting up subscriptions (unsubscribe in componenentWillUnmount())
+
+- shouldComponenttUpdate()
+  - prevents rerendering after every state change
+  - used to optimize performance
+  - PureComponent performs shallow comparison of props and    state
+  - make sure to check previous prop and state with current p and s
+  - will not invoke rest if returned false
+
+- getSnapshotBeforeUpdate()
+  - capture a pic of DOM to check it before changing anything on DOM
+
+- componentDidUpdate()
+- performs network requests after a change
+
+- componentWillUnmount()
+  - cleans up the DOM and network requests/subscriptions
+
+ [Link to Comparison of Lifecycle Events](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
+  
+## Assignment Questions
+
+1. Based off the diagram, what happens first, the ‘render’ or the ‘componentDidMount’?
+
+- Render
+
+2. What is the very first thing to happen in the lifecycle of React?
+
+- Mounting
+
+3. Put the following things in the order that they happen: componentDidMount, render, constructor, componentWillUnmount, React Updates
+
+- constructor
+  render
+  componentDidMount
+  componentWillUnmount
+  
+4. What does componentDidMount do?
+
+- Invokes the React code
+
+## React State Vs. Props
+
+Props- arguments to a function
+-Things that you want to pass to a function- what you want it to render like
+
+- will rerender if those props change
+- when you want to display info without hardcoding it a variable to a function
+
+State-  something inside a component
+-there for you need to update your app based on what the user has done
+
+- used for forms
+
+Differences
+prop is something you pass inside a component. handled outside of the component
+state is something handles inside the component
+
+when you change state, it rerenders that section of your app
+props- you need to change them outside that component, the origin of the props
+
+How to choose which one you will use:
+Which one is going to be handled by the component?
+
+
+Articles used:
+[Component-Based Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
+
+Videos used: 
+[What is Props and How to Use it in React](https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0#:~:text=%E2%80%9CProps%E2%80%9D%20is%20a%20special%20keyword,way%20from%20parent%20to%20child)
